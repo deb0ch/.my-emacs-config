@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/magnars/multiple-cursors.el.git
+	branch = master
+	commit = 6a62e60bf2920b0790ce27dfce8afd7c9f079f80
+	parent = 1711c712cc2bbd38748ab9709e2d25ee83dca23c
+	cmdver = 0.3.0
