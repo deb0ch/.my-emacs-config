@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/zk-phi/phi-search.git
+	branch = master
+	commit = 40b86bfe9ae15377fbee842b1de3d93c2eb7dd69
+	parent = 3cebf514d37728c97067cf53495eff80595b1a84
+	cmdver = 0.3.0
