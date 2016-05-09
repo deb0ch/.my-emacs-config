@@ -13,5 +13,6 @@
 ;; Modules
 
 (conf:load-config "multiple-cursors")
+(conf:load-config "undo-tree")
 
 (provide 'init-config)
