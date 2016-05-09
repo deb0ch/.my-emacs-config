@@ -14,5 +14,6 @@
 
 (conf:load-config "multiple-cursors")
 (conf:load-config "undo-tree")
+(conf:load-config "ws-butler")
 
 (provide 'init-config)
