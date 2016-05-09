@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/lewang/ws-butler.git
+	branch = master
+	commit = a998a23ee8713808ac1fe3d1523ea1861be4da57
+	parent = 20e9f43b639feef3f00bedeefd50936417877271
+	cmdver = 0.3.0
