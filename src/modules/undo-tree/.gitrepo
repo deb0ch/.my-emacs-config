@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = http://www.dr-qubit.org/git/undo-tree.git
+	branch = release/0.6.4
+	commit = 5d19d4e488dcee0117d8427f3b3a36ff7d68335c
+	parent = 4e2f323e2e6e23051d9c730caf8ce82bf86c9b4c
+	cmdver = 0.3.0
