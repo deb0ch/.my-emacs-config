@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/leoliu/ggtags
+	branch = 0.8.11
+	commit = d4fb6d40b71cad3fd5a2141b8456f27e2b2dc731
+	parent = 3c84601a191ed343684f98da60c8211b786254ab
+	cmdver = 0.3.0
