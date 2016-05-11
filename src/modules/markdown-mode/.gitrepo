@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git://jblevins.org/git/markdown-mode.git
+	branch = v2.1
+	commit = c6eb56eff31f7961c9a00a5d18eaf939c2c40b7d
+	parent = afc28e81b7032dfc3c7f76de3ae492d89bad4416
+	cmdver = 0.3.0
