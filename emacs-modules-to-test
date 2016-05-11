@@ -6,27 +6,20 @@
 Essentials:
 -------------
 
-multiple-cursors
-undo-tree
-ws-butler
+multiple-cursors *
+undo-tree *
+ws-butler *
 
 
-To try:
----------
+Tags:
 
-ace-jump
-auto-pair
-cmake
-cython
-dash
-deferred
-emacs-ycmd
-git-gutter-fringe
-glsl
-highlight-indentation
-highlight-symbol
-let-alist
-popup
+gtags OU rtags ?
+
+gtags: il a l'air bien et plus recent. Peut utiliser ctags comme backend. A utiliser avec ggtags.el (!= gtags.el). Voir configs a mettre sur https://www.emacswiki.org/emacs/GnuGlobal
+rtags: d'apres son createur c'est mieux que les precedents pour le c++ car il utilise la libclang. Compatible flycheck et company.
+
+cscope		├── si gtags ne fait pas deja la meme chose
+xcscope.el	│
 
 
 Helm:
@@ -45,6 +38,43 @@ company-irony
 flycheck
 flycheck-irony
 irony
+yasnippet (for company-irony)
+
+
+To try:
+---------
+
+├── games
+│   ├── flappymacs
+│   ├── minesweeper
+│   ├── sokoban-1.4
+│   ├── typing-game
+│   └── typing
+├── silly
+│   ├── fireplace
+│   ├── nyan-mode
+│   ├── zone-nyan
+│   ├── zone-sl
+├── themes
+│   ├── badger-theme
+│   ├── badwolf-theme
+│   ├── toxi-theme
+│   ├── ubuntu-theme
+│   ├── underwater-theme
+│   ├── zenburn-theme
+│   ├── zerodark-theme
+└── utils
+    ├── ace-jump
+    ├── auto-pair (OU smartparens)
+    ├── cmake (cmake mode for emacs. https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
+    ├── dtrt-indent (detect indent style used in file)
+    ├── git-gutter-fringe (gui)
+    ├── git-gutter (terminal)
+    ├── highlight-symbol
+    ├── kill-ring-search
+    ├── markdown-mode
+    ├── semantic-refactor (https://github.com/tuhdo/semantic-refactor)
+    └── zlc
 
 
 *************
@@ -52,19 +82,19 @@ irony
 *************
 
 Essentials:
-
-duplicate-region.el
+-------------
 
 
 To try:
+---------
 
 avoid-boring-buffers.el
 better-cc-mode.el
-delete-trailing-whitespace.el
 location-stack.el
-monokai.el (gui mode)
+monokai.el (gui)
 simple-ido.el
 smooth-scroll.el
+speedbar (https://www.emacswiki.org/emacs/SpeedBar)
 sublimity-scroll.el
 tags.el
 window.el
