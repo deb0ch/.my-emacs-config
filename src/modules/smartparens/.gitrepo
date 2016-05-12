@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/Fuco1/smartparens
+	branch = 1.7.1
+	commit = 48c1436d0eb63e3a6ce91920546b392df3860bf2
+	parent = 1b702514a8ffad207d95b36552bf9d57eecfbf90
+	cmdver = 0.3.0
