@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/magnars/dash.el
+	branch = 2.12.1
+	commit = fec6f5480d0ce03ead0e6117ac77dc7e757e76f8
+	parent = a91befc067b985b5cf6a898b0c65751f0c098e33
+	cmdver = 0.3.0
