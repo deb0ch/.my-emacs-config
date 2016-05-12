@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/ahyatt/emacs-websocket
+	branch = master
+	commit = f18bfea59b843ea67bc0a3381783d6e083d33640
+	parent = 29e90227c0db8cad7df4ff83087d677c8cc50efb
+	cmdver = 0.3.0
