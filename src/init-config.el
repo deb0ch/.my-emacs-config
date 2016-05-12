@@ -17,6 +17,7 @@
 (conf:load-config "markdown-mode")
 (conf:load-config "markdown-preview-mode")
 (conf:load-config "multiple-cursors")
+(conf:load-config "smartparens")
 (conf:load-config "undo-tree")
 (conf:load-config "ws-butler")
 
