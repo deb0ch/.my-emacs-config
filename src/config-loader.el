@@ -8,15 +8,6 @@
 (defvar conf:root-path (file-name-directory load-file-name)
   "Root path of conf directory")
 
-(defun conf:load-file(file-name)
-  "Load a file if it exists"
-  (let ((full-file-name (format "%s/%s" conf:root-path file-name)))
-    (if (file-exists-p full-file-name)
-	(progn (load-file full-file-name)
-	       t)
-      (message (format "File %s not found" file-name))
-      nil)))
-
 (defun conf:load-config(config-name)
   "Load a config if it exists"
   (let ((full-config-name (format "%s/configs/%s.el" conf:root-path config-name)))
@@ -34,15 +25,6 @@
 	     (message "/!\\ Error while loading config %s: %s" config-name (error-message-string err))))
 	  )
       (message (format "Config %s not found" config-name)))))
-
-(defun conf:add-to-path(&optional path &optional load-list)
-  "Add path to the load-path"
-  (when (not path)
-    (setq path ""))
-  (when (not load-list)
-    (setq load-list 'load-path))
-  (let ((full-module-name (format "%s/%s" (file-name-directory load-file-name) path)))
-    (add-to-list load-list full-module-name)))
 
 (defun conf:add-module-to-path(path &optional load-list)
   "Add module path to the load-path"
