@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/ancane/markdown-preview-mode
+	branch = v0.3
+	commit = ff75e31a57f62156441d66d5c4033ad204d49a87
+	parent = 4bb61cace01b2c4187522afa9fbb3cab0b23e73e
+	cmdver = 0.3.0
