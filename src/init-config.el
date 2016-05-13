@@ -13,6 +13,7 @@
 
 ;; Modules
 
+(conf:load-config "dtrt-indent")
 (conf:load-config "ggtags")
 (conf:load-config "markdown-mode")
 (conf:load-config "markdown-preview-mode")
