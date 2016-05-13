@@ -7,6 +7,8 @@
 
 (require 'smartparens-config)
 
-(add-hook 'c-mode-hook #'smartparens-mode)
-(add-hook 'c++-mode-hook #'smartparens-mode)
-(add-hook 'js-mode-hook #'smartparens-mode)
+(smartparens-global-mode)
+
+;; (add-hook 'c-mode-hook #'smartparens-mode)
+;; (add-hook 'c++-mode-hook #'smartparens-mode)
+;; (add-hook 'js-mode-hook #'smartparens-mode)
