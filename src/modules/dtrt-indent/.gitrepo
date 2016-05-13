@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/jscheid/dtrt-indent.git
+	branch = master
+	commit = 1115688391bf8cc58a814ca99bfc769a3afd46cf
+	parent = 223c17a34da6bd3fd9aec58be7f8dfe44c678e03
+	cmdver = 0.3.0
