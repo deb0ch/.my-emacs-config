@@ -1,0 +1,155 @@
+
+*************
+*  Modules  *
+*************
+
+Essentials:
+-------------
+
+multiple-cursors *
+undo-tree *
+ws-butler *
+
+
+Tags:
+
+ggtags *
+
+
+Helm:
+
+helm-ag
+helm-descbinds
+helm-gtags
+helm-swoop
+
+
+Completion:
+
+company-mode
+company-c-headers
+company-irony
+flycheck
+flycheck-irony
+irony
+yasnippet (for company-irony)
+
+
+To try:
+---------
+
+
+├── games
+│   ├── flappymacs
+│   ├── minesweeper
+│   ├── sokoban-1.4
+│   ├── typing-game
+│   └── typing
+├── silly
+│   ├── fireplace
+│   ├── nyan-mode (gui)
+│   ├── zone-nyan (gui)
+│   ├── zone-sl
+├── themes
+│   ├── badger-theme
+│   ├── badwolf-theme
+│   ├── toxi-theme
+│   ├── ubuntu-theme
+│   ├── underwater-theme
+│   ├── zenburn-theme
+│   ├── zerodark-theme
+└── utils
+    ├── markdown-mode *
+    ├── markdown-preview-mode *
+    ├── cmake (cmake mode for emacs. https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
+    ├── zlc
+    ├── smartparens *
+    ├── dtrt-indent (detect indent style used in file)
+    ├── highlight-symbol
+    ├── powerline (https://github.com/milkypostman/powerline)
+    ├── semantic-refactor (https://github.com/tuhdo/semantic-refactor)
+    ├── kill-ring-search
+    ├── projectile
+    ├── sublimity (https://github.com/zk-phi/sublimity) (gui)
+    ├── git-gutter-fringe (gui)
+    ├── git-gutter (terminal)
+    └── ace-jump
+
+
+*************
+*  Configs  *
+*************
+
+Essentials:
+-------------
+
+duplicate-region.el *
+
+
+To try:
+---------
+
+avoid-boring-buffers.el
+better-cc-mode.el
+electric-pair-mode
+location-stack.el
+monokai.el (gui)
+simple-ido.el
+smooth-scroll.el
+speedbar (https://www.emacswiki.org/emacs/SpeedBar)
+sublimity-scroll.el
+tags.el
+window.el
+
+
+******************
+*  Key bindings  *
+******************
+
+Helm-projectile useful function (to bind on M-o):
+
+(defun sr-open-file()
+       "Open file using projectile+Helm or ido"
+       (interactive)
+       (if (projectile-project-p)
+       	   (helm-projectile)
+	   (helm-for-files)
+       )
+)
+
+Keybindings:
+
+Keybinding              | Description
+------------------------|-------------------------------------------------
+<kbd>C-f</kbd>          | select/mark current line
+<kbd>C-d</kbd>          | duplicate current line
+<kbd>C-q</kbd>          | kill buffer
+<kbd>M-arrow</kbd>      | jump to left/right/up/down buffer
+
+### Helm
+
+<kbd>C-x C-f</kbd>      | `helm-find-files`: view and open files
+<kbd>C-p</kbd>          | `helm-buffer-list`: select/create buffer
+<kbd>M-f</kbd>          | `helm-occur`: search in current buffer
+<kbd>M-R</kbd>          | `helm-ag`: select a directory and do a recursive grep-like search
+
+### While in `helm-find-files` (<kbd>C-x C-f</kbd>):
+
+<kbd>M-r</kbd>          | start `helm-ag` in selected directory
+<kbd>C-p</kbd>          | use `find` command in selected directory to search file
+
+### Projectile
+
+<kbd>C-c p f</kbd>      | list all the file in the project
+<kbd>C-c p F</kbd>      | list all files from all opened project
+<kbd>C-c p s s</kbd>    | runs `helm-ag` (recursive grep) at the root of the project
+<kbd>C-c p a</kbd>      | switch between files with the same name but different
+                        | extensions (for example .c/.h)
+			<kbd>C-c p r</kbd>      | runs `query-replace` on all files in the project
+			<kbd>C-c p i</kbd>      | regenerate project file cache (if many file path changed)
+
+### Multiple Cursors
+
+<kbd>C-j</kbd>          | add a new cursor to the next point that match the selected region.
+<kbd>M-j</kbd>          | add a new cursor to the next point that match the selected symbol.
+
