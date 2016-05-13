@@ -61,16 +61,16 @@ To try:
 └── utils
     ├── markdown-mode *
     ├── markdown-preview-mode *
-    ├── cmake (cmake mode for emacs. https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
-    ├── zlc
     ├── smartparens *
-    ├── dtrt-indent (detect indent style used in file)
+    ├── dtrt-indent *
+    ├── zlc *
     ├── highlight-symbol
     ├── powerline (https://github.com/milkypostman/powerline)
     ├── semantic-refactor (https://github.com/tuhdo/semantic-refactor)
     ├── kill-ring-search
     ├── projectile
     ├── sublimity (https://github.com/zk-phi/sublimity) (gui)
+    ├── cmake (cmake mode for emacs. https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
     ├── git-gutter-fringe (gui)
     ├── git-gutter (terminal)
     └── ace-jump
@@ -91,7 +91,6 @@ To try:
 
 avoid-boring-buffers.el
 better-cc-mode.el
-electric-pair-mode
 location-stack.el
 monokai.el (gui)
 simple-ido.el
