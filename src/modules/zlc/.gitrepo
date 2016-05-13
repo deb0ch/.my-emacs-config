@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/mooz/emacs-zlc.git
+	branch = master
+	commit = 4dd2ba267ecdeac845a7cbb3147294ee7daa25f4
+	parent = 78c4d3de463919764cec5d12621b8c0f8f869391
+	cmdver = 0.3.0
