@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/TeMPOraL/nyan-mode.git
+	branch = v1.1.1
+	commit = b5db3a612bba35c8f54f44c300ebc879db6b3288
+	parent = 91b901f3437b9847b692960b2bd1fde8d903a3e1
+	cmdver = 0.3.0
