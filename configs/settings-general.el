@@ -33,13 +33,6 @@
 ;; Stop making annoying ~ files
 (setq make-backup-files nil)
 
-;; bind markdown mode to .text, .markdown and .md files
-(autoload 'markdown-mode "markdown-mode"
-  "Major mode for editing Markdown files" t)
-(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
-
 ;; regular comment face even in c-doc comment styles
 ;; see http://www.gnu.org/software/emacs/manual/html_mono/ccmode.html#Doc-Comments
 ;; and http://emacs.stackexchange.com/questions/3762/cc-mode-javadoc-comment-colors-in-c-c
@@ -70,11 +63,6 @@
 ;; Montre les espaces en fin de ligne
 (setq-default show-trailing-whitespace t)
 
-;; Laisser le curseur en place lors d'un defilement par pages.
-;; Par defaut, Emacs place le curseur en debut ou fin d'ecran
-;; selon le sens du defilement.
-(setq scroll-preserve-screen-position nil)
-
 ;; Pouvoir utiliser la completion sous emacs en ignorant la casse
 (setq completion-ignore-case t)
 
@@ -85,5 +73,15 @@
 ;; allow selection when using shift + arrow
 (setq shift-select-mode t)
 
-;; scroll only one line at a time (large number is normal)
-(setq scroll-conservatively 10000)
+;; scroll-preserve-screen-position:
+;; laisse le curseur en place lors d'un defilement par pages.
+;; Par defaut, Emacs place le curseur en debut ou fin d'ecran
+;; selon le sens du defilement.
+(setq scroll-preserve-screen-position t
+      scroll-margin 2
+      scroll-conservatively 10000 ; scroll only one line at a time (large number is normal)
+      scroll-up-aggressively 0.01
+      scroll-down-aggressively 0.01
+      scroll-step 1)
+(setq-default scroll-up-aggressively 0.01
+	      scroll-down-aggressively 0.01)
