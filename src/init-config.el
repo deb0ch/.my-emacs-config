@@ -23,6 +23,5 @@
 (conf:load-config "smartparens")
 (conf:load-config "undo-tree")
 (conf:load-config "ws-butler")
-(conf:load-config "zlc")
 
 (provide 'init-config)
