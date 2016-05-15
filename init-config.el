@@ -3,6 +3,7 @@
 ;; Regular configs
 
 (conf:load-config "ansi-color")
+(conf:load-config "avoid-boring-buffers")
 (conf:load-config "duplicate-region")
 (conf:load-config "settings-general")
 (conf:load-config "settings-coding-style")

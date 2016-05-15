@@ -1,4 +1,6 @@
-;; Avoid boring buffers
+;; **********************************************
+;; * Avoid useless buffers when cycling arround *
+;; **********************************************
 
 (require 'cl)
 
@@ -14,7 +16,7 @@
             (setq valid-buffer nil)))
     valid-buffer))
 
-(defun --contains-valid-buffer (buffer-list)
+(defun contains-valid-buffer (buffer-list)
   (let ((valid-buffer nil))
     (loop for buffer in buffer-list do
           (when (is-buffer-valid (buffer-name buffer))
@@ -22,16 +24,16 @@
     valid-buffer))
 
 (defun skip-temp-buffers (func)
-  (if (--contains-valid-buffer (buffer-list))
+  (if (contains-valid-buffer (buffer-list))
       (while (not (is-buffer-valid (buffer-name)))
         (funcall func))))
 
-(defun my-next-buffer ()
+(defun next-buffer-avoid-boring ()
   (interactive)
   (next-buffer)
   (skip-temp-buffers 'next-buffer))
 
-(defun my-prev-buffer ()
+(defun prev-buffer-avoid-boring ()
   (interactive)
   (previous-buffer)
   (skip-temp-buffers 'previous-buffer))
@@ -42,6 +44,6 @@
   (when (not (is-buffer-valid (buffer-name)))
     (skip-temp-buffers 'previous-buffer)))
 
-(global-set-key [remap next-buffer] 'my-next-buffer)
-(global-set-key [remap previous-buffer] 'my-prev-buffer)
+(global-set-key [remap next-buffer] 'next-buffer-avoid-boring)
+(global-set-key [remap previous-buffer] 'prev-buffer-avoid-boring)
 (global-set-key [remap kill-this-buffer] 'kill-this-buffer-avoid-boring)
