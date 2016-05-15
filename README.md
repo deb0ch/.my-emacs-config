@@ -8,7 +8,7 @@ configuration system, which you can find at https://github.com/Azkae/emacs-confi
 
 Add the two following lines to your .emacs (and clear out the rest):
 
-(add-to-list 'load-path "~/.my-emacs-config/src/")
+(add-to-list 'load-path "~/.my-emacs-config/")
 (require 'init-config)
 
 
@@ -27,7 +27,7 @@ in a .el file named after the module in src/config.
 
 ## Structure
 
-This is what you can find in the `src/` folder:
+This is what you can find in the root folder:
 
 * config-loader.el      `# General functions needed by the config system. Called by setup.el`
 * configs/              `# Your modules configuration. Feel free to add your own.`
