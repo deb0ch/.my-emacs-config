@@ -1,4 +1,7 @@
-;; See http://stackoverflow.com/questions/8549351/c11-mode-or-settings-for-emacs
+;; ***********************************************************************************
+;; *  See http://stackoverflow.com/questions/8549351/c11-mode-or-settings-for-emacs  *
+;; ***********************************************************************************
+
 (require 'font-lock)
 
 (defun --copy-face (new-face face)
