@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/powerline/fonts.git
+	branch = master
+	commit = a44abd0e742ad6e7fd8d8bc4c3cad5155c9f3a92
+	parent = 76f5204fb7831965089a15a0a05f84ac59f1945d
+	cmdver = 0.3.0
