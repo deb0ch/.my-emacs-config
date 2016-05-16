@@ -5,8 +5,10 @@
 (conf:load-config "ansi-color")
 (conf:load-config "avoid-boring-buffers")
 (conf:load-config "duplicate-region")
-(conf:load-config "settings-general")
+(conf:load-config "ido-mode")
 (conf:load-config "settings-coding-style")
+(conf:load-config "settings-general")
+(conf:load-config "settings-keybindings")
 
 (when (display-graphic-p)
   (conf:load-config "nyan-mode")
