@@ -53,6 +53,7 @@ To try:
 ├── themes
 │   ├── badger-theme
 │   ├── badwolf-theme
+│   ├── monokai (gui) *
 │   ├── toxi-theme
 │   ├── ubuntu-theme
 │   ├── underwater-theme
@@ -64,13 +65,14 @@ To try:
     ├── smartparens *
     ├── dtrt-indent *
     ├── zlc *
-    ├── highlight-symbol
+    ├── projectile
     ├── powerline (https://github.com/milkypostman/powerline)
+    ├── sublimity (https://github.com/zk-phi/sublimity) (gui)
     ├── semantic-refactor (https://github.com/tuhdo/semantic-refactor)
     ├── kill-ring-search
-    ├── projectile
-    ├── sublimity (https://github.com/zk-phi/sublimity) (gui)
-    ├── cmake (cmake mode for emacs. https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
+    ├── highlight-symbol
+    ├── hydra (convenient keybindings logic https://github.com/abo-abo/hydra)
+    ├── cmake (cmake-mode https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
     ├── git-gutter-fringe (gui)
     ├── git-gutter (terminal)
     └── ace-jump
@@ -89,21 +91,19 @@ duplicate-region.el *
 To try:
 ---------
 
-avoid-boring-buffers.el
+avoid-boring-buffers.el *
 better-cc-mode.el
 location-stack.el
-monokai.el (gui)
 simple-ido.el
 smooth-scroll.el
 speedbar (https://www.emacswiki.org/emacs/SpeedBar)
 sublimity-scroll.el
-tags.el
 window.el
 
 
-******************
-*  Key bindings  *
-******************
+**********
+*  Misc  *
+**********
 
 Helm-projectile useful function (to bind on M-o):
 
@@ -115,40 +115,3 @@ Helm-projectile useful function (to bind on M-o):
 	   (helm-for-files)
        )
 )
-
-Keybindings:
-
-Keybinding              | Description
-------------------------|-------------------------------------------------
-<kbd>C-f</kbd>          | select/mark current line
-<kbd>C-d</kbd>          | duplicate current line
-<kbd>C-q</kbd>          | kill buffer
-<kbd>M-arrow</kbd>      | jump to left/right/up/down buffer
-
-### Helm
-
-<kbd>C-x C-f</kbd>      | `helm-find-files`: view and open files
-<kbd>C-p</kbd>          | `helm-buffer-list`: select/create buffer
-<kbd>M-f</kbd>          | `helm-occur`: search in current buffer
-<kbd>M-R</kbd>          | `helm-ag`: select a directory and do a recursive grep-like search
-
-### While in `helm-find-files` (<kbd>C-x C-f</kbd>):
-
-<kbd>M-r</kbd>          | start `helm-ag` in selected directory
-<kbd>C-p</kbd>          | use `find` command in selected directory to search file
-
-### Projectile
-
-<kbd>C-c p f</kbd>      | list all the file in the project
-<kbd>C-c p F</kbd>      | list all files from all opened project
-<kbd>C-c p s s</kbd>    | runs `helm-ag` (recursive grep) at the root of the project
-<kbd>C-c p a</kbd>      | switch between files with the same name but different
-                        | extensions (for example .c/.h)
-			<kbd>C-c p r</kbd>      | runs `query-replace` on all files in the project
-			<kbd>C-c p i</kbd>      | regenerate project file cache (if many file path changed)
-
-### Multiple Cursors
-
-<kbd>C-j</kbd>          | add a new cursor to the next point that match the selected region.
-<kbd>M-j</kbd>          | add a new cursor to the next point that match the selected symbol.
-
