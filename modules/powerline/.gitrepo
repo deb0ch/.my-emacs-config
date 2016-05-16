@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/milkypostman/powerline.git
+	branch = master
+	commit = cafd957b33dbe8dc318b423082830a1f910da333
+	parent = 16b7bbcf8fd72cd6d91c66eb72217066082ac48a
+	cmdver = 0.3.0
