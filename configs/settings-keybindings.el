@@ -6,6 +6,8 @@
 
 
 (global-set-key (kbd "C-q") 'kill-this-buffer)
+(global-set-key (kbd "M-e") 'end-of-buffer)
+(global-set-key (kbd "M-a") 'beginning-of-buffer)
 
 ;; (global-set-key [C-return] 'newline-and-indent)	; Todo: see if useful
 
