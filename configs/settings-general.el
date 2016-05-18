@@ -76,7 +76,9 @@
 ;; Affichage des numéros de ligne
 (global-linum-mode 1)
 (setq linum-format "%3d \u2502 ")
-(set-face-attribute 'linum nil :foreground "blue")
+(if (string= (getenv "TERM") "xterm")
+    (set-face-attribute 'linum nil :foreground "blue" :weight 'bold)
+)
 
 ;; Affiche le numero de ligne et de colonne
 (column-number-mode t)

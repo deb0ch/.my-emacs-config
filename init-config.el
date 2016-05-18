@@ -13,7 +13,6 @@
 (when (display-graphic-p)
   (conf:load-config "nyan-mode")
   (conf:load-config "settings-gui")
-  (conf:load-config "theme-monokai")
 )
 
 ;; Modules
@@ -27,5 +26,10 @@
 (conf:load-config "powerline")
 (conf:load-config "undo-tree")
 (conf:load-config "ws-butler")
+
+;; theme
+
+;(conf:load-config "8color-theme")
+(conf:load-config "theme-monokai")
 
 (provide 'init-config)
