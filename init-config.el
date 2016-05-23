@@ -9,6 +9,7 @@
 (conf:load-config "settings-coding-style")
 (conf:load-config "settings-general")
 (conf:load-config "settings-keybindings")
+(conf:load-config "ttypaste-mode")
 
 (when (display-graphic-p)
   (conf:load-config "nyan-mode")
