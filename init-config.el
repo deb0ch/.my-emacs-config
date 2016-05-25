@@ -6,6 +6,7 @@
 (conf:load-config "avoid-boring-buffers")
 (conf:load-config "duplicate-region")
 (conf:load-config "ido-mode")
+(conf:load-config "linum-off")
 (conf:load-config "settings-coding-style")
 (conf:load-config "settings-general")
 (conf:load-config "settings-keybindings")

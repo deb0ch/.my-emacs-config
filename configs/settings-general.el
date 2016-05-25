@@ -2,14 +2,7 @@
 ;; * Personal emacs settings
 ;; ********************************
 
-;; ELPA (Emacs package manager)
-(when (>= emacs-major-version 24)
-  (require 'package)
-  (add-to-list
-   'package-archives
-   '("melpa" . "http://melpa.org/packages/")
-   t)
-  (package-initialize))
+(setq-default major-mode 'text-mode)
 
 ;; replace yes-or-no question with y-or-n. Much faster.
 (fset 'yes-or-no-p 'y-or-n-p)
