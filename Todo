@@ -65,16 +65,18 @@ To try:
     ├── smartparens *
     ├── dtrt-indent *
     ├── zlc *
+    ├── powerline (https://github.com/milkypostman/powerline) *
     ├── projectile
-    ├── powerline (https://github.com/milkypostman/powerline)
     ├── sublimity (https://github.com/zk-phi/sublimity) (gui)
-    ├── semantic-refactor (https://github.com/tuhdo/semantic-refactor)
-    ├── kill-ring-search
     ├── highlight-symbol
-    ├── hydra (convenient keybindings logic https://github.com/abo-abo/hydra)
-    ├── cmake (cmake-mode https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
+    ├── kill-ring-search
+    ├── magit
     ├── git-gutter-fringe (gui)
     ├── git-gutter (terminal)
+    ├── semantic-refactor (https://github.com/tuhdo/semantic-refactor)
+    ├── hydra (convenient keybindings logic https://github.com/abo-abo/hydra)
+    ├── cmake (cmake-mode https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
+    ├── pdf-tools (https://github.com/politza/pdf-tools)
     └── ace-jump
 
 
