@@ -7,7 +7,7 @@
 ;; replace yes-or-no question with y-or-n. Much faster.
 (fset 'yes-or-no-p 'y-or-n-p)
 
-(kill-buffer "*scratch*")
+;(kill-buffer "*scratch*")
 
 ;; Enlever la barre de menu moche et inutile
 (menu-bar-mode 0)
