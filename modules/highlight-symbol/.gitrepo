@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/nschum/highlight-symbol.el.git
+	branch = master
+	commit = 7a789c779648c55b16e43278e51be5898c121b3a
+	parent = 9d966a70edd45a5be41a4ae7da56194565c3564a
+	cmdver = 0.3.0
