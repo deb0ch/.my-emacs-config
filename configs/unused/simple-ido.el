@@ -1,6 +1,6 @@
-;; ******************
-;; * Setup ido-mode *
-;; ******************
+;;
+;; Setup ido-mode
+;;
 
 (require 'ido)
 
