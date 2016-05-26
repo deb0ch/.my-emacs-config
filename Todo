@@ -6,14 +6,14 @@
 Essentials:
 -------------
 
-multiple-cursors *
-undo-tree *
-ws-butler *
+* multiple-cursors
+* undo-tree
+* ws-butler
 
 
 Tags:
 
-ggtags *
+* ggtags
 
 
 Helm:
@@ -47,60 +47,50 @@ To try:
 │   └── typing
 ├── silly
 │   ├── fireplace
-│   ├── nyan-mode (gui)
-│   ├── zone-nyan (gui)
-│   ├── zone-sl
+│   ├── * nyan-mode			(gui)
+│   ├── zone-nyan			(gui)
+│   └── zone-sl
 ├── themes
 │   ├── badger-theme
 │   ├── badwolf-theme
-│   ├── monokai (gui) *
+│   ├── * monokai			(gui)
 │   ├── toxi-theme
 │   ├── ubuntu-theme
 │   ├── underwater-theme
 │   ├── zenburn-theme
-│   ├── zerodark-theme
+│   └── zerodark-theme
+├── language support
+│   ├── * markdown-mode
+│   └── cmake				(cmake-mode https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
 └── utils
-    ├── markdown-mode *
-    ├── markdown-preview-mode *
-    ├── smartparens *
-    ├── dtrt-indent *
-    ├── zlc *
-    ├── powerline (https://github.com/milkypostman/powerline) *
-    ├── projectile
-    ├── sublimity (https://github.com/zk-phi/sublimity) (gui)
+    ├── * markdown-preview-mode
+    ├── * smartparens
+    ├── * dtrt-indent
+    ├── * zlc
+    ├── * powerline			(https://github.com/milkypostman/powerline)
     ├── highlight-symbol
     ├── kill-ring-search
     ├── magit
-    ├── git-gutter-fringe (gui)
     ├── git-gutter (terminal)
-    ├── semantic-refactor (https://github.com/tuhdo/semantic-refactor)
-    ├── hydra (convenient keybindings logic https://github.com/abo-abo/hydra)
-    ├── cmake (cmake-mode https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
-    ├── pdf-tools (https://github.com/politza/pdf-tools)
-    └── ace-jump
+    ├── projectile
+    ├── semantic-refactor		(https://github.com/tuhdo/semantic-refactor)
+    ├── hydra				(https://github.com/abo-abo/hydra)
+    ├── pdf-tools			(https://github.com/politza/pdf-tools)
+    ├── location-stack.el
+    ├── ace-jump
+    ├── speedbar			(https://www.emacswiki.org/emacs/SpeedBar)
+    ├── git-gutter-fringe		(gui)
+    └── sublimity			(gui) (https://github.com/zk-phi/sublimity)
 
 
 *************
 *  Configs  *
 *************
 
-Essentials:
--------------
-
-duplicate-region.el *
-
-
-To try:
----------
-
-avoid-boring-buffers.el *
-better-cc-mode.el
-location-stack.el
+better-cc-mode.el			(prettify c++, c++11 support, coding style settings)
 simple-ido.el
-smooth-scroll.el
-speedbar (https://www.emacswiki.org/emacs/SpeedBar)
 sublimity-scroll.el
-window.el
+window.el				(misc configs for gui windows management)
 
 
 **********
@@ -117,3 +107,10 @@ Helm-projectile useful function (to bind on M-o):
 	   (helm-for-files)
        )
 )
+
+
+***********
+*  Hacks  *
+***********
+
+- powerline: shorten commit hash
