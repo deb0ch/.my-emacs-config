@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/alezost/mwim.el.git
+	branch = master
+	commit = dc1b5c358e0bfe607527f1b7c082188105fe6c75
+	parent = 14e5277f51eb24274c0447edfe33d01c61787d6a
+	cmdver = 0.3.0
