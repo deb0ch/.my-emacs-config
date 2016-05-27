@@ -25,6 +25,7 @@
 (conf:load-config "ggtags")
 ;(conf:load-config "helm")
 ;(conf:load-config "helm-ag")
+(conf:load-config "helm-descbinds")
 (conf:load-config "markdown-mode")
 (conf:load-config "markdown-preview-mode")
 (conf:load-config "move-where-i-mean")
