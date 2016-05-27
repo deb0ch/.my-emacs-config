@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/magnars/expand-region.el.git
+	branch = master
+	commit = 59f67115263676de5345581216640019975c4fda
+	parent = e67826e569b34b76f6bb393f1506cf642b0d8160
+	cmdver = 0.3.0
