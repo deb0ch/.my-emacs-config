@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/jwiegley/emacs-async.git
+	branch = master
+	commit = 0e327f72bdffc5bc4a1fbc34a8da1b7066e819b3
+	parent = b17e13a528668eea4e6165a92096a42b1da79a0c
+	cmdver = 0.3.0
