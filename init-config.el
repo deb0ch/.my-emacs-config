@@ -20,8 +20,9 @@
 ;; Modules
 
 (conf:load-config "autopair")
-(conf:load-config "expand-region")
+(conf:load-config "cmake-mode")
 (conf:load-config "dtrt-indent")
+(conf:load-config "expand-region")
 (conf:load-config "ggtags")
 ;(conf:load-config "helm")
 ;(conf:load-config "helm-ag")
