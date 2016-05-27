@@ -24,6 +24,7 @@
 (conf:load-config "ggtags")
 (conf:load-config "markdown-mode")
 (conf:load-config "markdown-preview-mode")
+(conf:load-config "move-where-i-mean")
 (conf:load-config "multiple-cursors")
 (conf:load-config "powerline")
 (conf:load-config "undo-tree")
