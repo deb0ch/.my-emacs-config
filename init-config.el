@@ -5,6 +5,7 @@
 (conf:load-config "ansi-color")
 (conf:load-config "avoid-boring-buffers")
 (conf:load-config "duplicate-region")
+(conf:load-config "highlight-symbol")
 (conf:load-config "ido-mode")
 (conf:load-config "linum-off")
 (conf:load-config "settings-coding-style")
