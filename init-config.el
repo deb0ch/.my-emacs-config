@@ -20,6 +20,7 @@
 ;; Modules
 
 (conf:load-config "autopair")
+(conf:load-config "expand-region")
 (conf:load-config "dtrt-indent")
 (conf:load-config "ggtags")
 (conf:load-config "markdown-mode")
