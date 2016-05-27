@@ -1,3 +1,6 @@
+;;
+;; Find symbols definitions and references across code bases
+;;
 
 ; To make it work don't forget to install GNU Global:
 ; $> sudo apt-get install global

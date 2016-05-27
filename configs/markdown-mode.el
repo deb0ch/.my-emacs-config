@@ -1,6 +1,6 @@
-;; *****************************
-;; *  Configure markdown-mode  *
-;; *****************************
+;;
+;; Configure markdown-mode
+;;
 
 (conf:add-module-to-path "markdown-mode")
 

@@ -1,6 +1,6 @@
-;; *******************
-;; * Multiple cursors
-;; *******************
+;;
+;; Conveniently edit in sereval places at once
+;;
 
 (conf:add-module-to-path "phi-search")
 (conf:add-module-to-path "multiple-cursors")
