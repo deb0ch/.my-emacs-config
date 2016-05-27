@@ -15,73 +15,76 @@ Tags:
 
 * ggtags
 
-
-Helm:
-
-helm-ag
-helm-descbinds
-helm-gtags
-helm-swoop
-
-
-Completion:
-
-company-mode
-company-c-headers
-company-irony
-flycheck
-flycheck-irony
-irony
-yasnippet (for company-irony)
-
-
 To try:
 ---------
 
+└── Helm
+    ├── * helm
+    ├── * helm-ag
+    ├── * helm-descbinds
+    ├── * helm-gtags
+    └── * helm-swoop
 
-├── games
-│   ├── flappymacs
-│   ├── minesweeper
-│   ├── sokoban-1.4
-│   ├── typing-game
-│   └── typing
-├── silly
-│   ├── fireplace
-│   ├── * nyan-mode			(gui)
-│   ├── zone-nyan			(gui)
-│   └── zone-sl
-├── themes
-│   ├── badger-theme
-│   ├── badwolf-theme
-│   ├── * monokai			(gui)
-│   ├── toxi-theme
-│   ├── ubuntu-theme
-│   ├── underwater-theme
-│   ├── zenburn-theme
-│   └── zerodark-theme
-├── language support
-│   ├── * markdown-mode
-│   └── cmake				(cmake-mode https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
+└── completion
+    ├── company-mode
+    ├── company-c-headers
+    ├── company-irony
+    ├── flycheck
+    ├── flycheck-irony
+    ├── irony
+    └── yasnippet (for company-irony)
+
 └── utils
     ├── * markdown-preview-mode
     ├── * smartparens
     ├── * dtrt-indent
     ├── * zlc
     ├── * powerline			(https://github.com/milkypostman/powerline)
+    ├── * mwim (move where i mean)
     ├── highlight-symbol
-    ├── kill-ring-search
+    ├── * expand-region
     ├── magit
     ├── git-gutter (terminal)
     ├── projectile
-    ├── semantic-refactor		(https://github.com/tuhdo/semantic-refactor)
     ├── hydra				(https://github.com/abo-abo/hydra)
-    ├── pdf-tools			(https://github.com/politza/pdf-tools)
     ├── location-stack.el
+    └── pdf-tools			(https://github.com/politza/pdf-tools)
+
+└── language support
+    ├── * markdown-mode
+    └── * cmake				(cmake-mode https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
+
+└── not sure
+    ├── evil-mode
     ├── ace-jump
+    ├── kill-ring-search
+    ├── semantic-refactor		(https://github.com/tuhdo/semantic-refactor)
     ├── speedbar			(https://www.emacswiki.org/emacs/SpeedBar)
     ├── git-gutter-fringe		(gui)
     └── sublimity			(gui) (https://github.com/zk-phi/sublimity)
 
+└── games
+    ├── flappymacs
+    ├── minesweeper
+    ├── sokoban-1.4
+    ├── typing-game
+    └── typing
+
+└── silly
+    ├── fireplace
+    ├── * nyan-mode			(gui)
+    ├── zone-nyan			(gui)
+    └── zone-sl
+
+└── themes
+    ├── badger-theme
+    ├── badwolf-theme
+    ├── * monokai			(gui)
+    ├── toxi-theme
+    ├── ubuntu-theme
+    ├── underwater-theme
+    ├── zenburn-theme
+    └── zerodark-theme
 
 *************
 *  Configs  *
@@ -89,7 +92,6 @@ To try:
 
 better-cc-mode.el			(prettify c++, c++11 support, coding style settings)
 simple-ido.el
-sublimity-scroll.el
 window.el				(misc configs for gui windows management)
 
 
@@ -113,4 +115,4 @@ Helm-projectile useful function (to bind on M-o):
 *  Hacks  *
 ***********
 
-- powerline: shorten commit hash
+- * powerline: shorten commit hash
