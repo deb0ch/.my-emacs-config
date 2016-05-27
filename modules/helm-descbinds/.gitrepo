@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/emacs-helm/helm-descbinds.git
+	branch = master
+	commit = 3c344979f1df0d1a5cc913674e56c4d45c346134
+	parent = 9c98d92ebdc01dfd034df77994a38cea4b3c3b70
+	cmdver = 0.3.0
