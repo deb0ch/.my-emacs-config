@@ -23,6 +23,7 @@
 (conf:load-config "expand-region")
 (conf:load-config "dtrt-indent")
 (conf:load-config "ggtags")
+(conf:load-config "helm")
 (conf:load-config "markdown-mode")
 (conf:load-config "markdown-preview-mode")
 (conf:load-config "move-where-i-mean")
