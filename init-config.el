@@ -26,6 +26,7 @@
 ;(conf:load-config "helm")
 ;(conf:load-config "helm-ag")
 (conf:load-config "helm-descbinds")
+(conf:load-config "helm-gtags")
 (conf:load-config "helm-swoop")
 (conf:load-config "markdown-mode")
 (conf:load-config "markdown-preview-mode")
