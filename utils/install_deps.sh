@@ -2,7 +2,7 @@
 
 echo "Installing config's dependencies..."
 
-packages="global markdown"
+packages="global markdown silversearcher-ag"
 
 sudo apt-get install $packages
 
@@ -21,5 +21,11 @@ else
 fi
 
 echo "Done installing patched fonrs for powerline."
+
+echo "Building Helm"
+
+cd ./modules/helm && make ; cd ..
+
+echo "Done building Helm"
 
 echo "Please change your terminal's or system's default font the a patched one for powerline to display properly."
