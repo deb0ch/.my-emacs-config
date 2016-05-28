@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/politza/pdf-tools.git
+	branch = v0.70
+	commit = 0107f80dcf268d08ac075b01729820062c0fbd67
+	parent = 3a460578da5873395ba5263674ae7e2e0f66824b
+	cmdver = 0.3.0
