@@ -11,12 +11,15 @@
 (conf:load-config "settings-coding-style")
 (conf:load-config "settings-general")
 (conf:load-config "settings-keybindings")
-(conf:load-config "ttypaste-mode")
 
 (when (display-graphic-p)
   (conf:load-config "nyan-mode")
   (conf:load-config "pdf-tools")
   (conf:load-config "settings-gui")
+)
+
+(when (not (display-graphic-p))
+  (conf:load-config "ttypaste-mode")
 )
 
 ;; Modules

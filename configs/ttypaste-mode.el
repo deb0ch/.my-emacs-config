@@ -3,6 +3,7 @@
 ;;
 
 (defvar ttypaste-mode nil)
+
 (add-to-list 'minor-mode-alist '(ttypaste-mode " Paste"))
 
 (defun ttypaste-mode ()
@@ -27,3 +28,5 @@
 	      (if (sit-for 0.1 'nodisp) (setq stay nil) (insert ?\e)))
 	     (t (insert char)))))
 	(insert-buffer-substring text)))))
+
+(global-set-key [f2] 'ttypaste-mode)
