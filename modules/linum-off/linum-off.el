@@ -59,14 +59,16 @@
 ;;; Code:
 (require 'linum)
 
-(defcustom linum-disabled-modes-list '(eshell-mode
-                                       wl-summary-mode
-                                       compilation-mode
-                                       org-mode
-                                       text-mode
+(defcustom linum-disabled-modes-list '(compilation-mode
                                        dired-mode
                                        doc-view-mode
-                                       image-mode)
+                                       eshell-mode
+                                       image-mode
+                                       markdown-mode
+                                       org-mode
+                                       pdf-view-mode
+                                       text-mode
+                                       wl-summary-mode)
   "* List of modes disabled when global linum mode is on"
   :type '(repeat (sexp :tag "Major mode"))
   :tag " Major modes where linum is disabled: "

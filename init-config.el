@@ -15,6 +15,7 @@
 
 (when (display-graphic-p)
   (conf:load-config "nyan-mode")
+  (conf:load-config "pdf-tools")
   (conf:load-config "settings-gui")
 )
 
@@ -25,8 +26,8 @@
 (conf:load-config "dtrt-indent")
 (conf:load-config "expand-region")
 (conf:load-config "ggtags")
-;(conf:load-config "helm")
-;(conf:load-config "helm-ag")
+(conf:load-config "helm")
+(conf:load-config "helm-ag")
 (conf:load-config "helm-descbinds")
 (conf:load-config "helm-gtags")
 (conf:load-config "helm-swoop")
