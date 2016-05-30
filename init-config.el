@@ -39,6 +39,7 @@
 (conf:load-config "move-where-i-mean")
 (conf:load-config "multiple-cursors")
 (conf:load-config "powerline")
+(conf:load-config "projectile")
 (conf:load-config "undo-tree")
 (conf:load-config "ws-butler")
 
