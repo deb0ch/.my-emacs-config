@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/bbatsov/helm-projectile.git
+	branch = master
+	commit = d18af3e40a9dd4c46875e6c8187c76902fc31f2c
+	parent = 1bfa1ea9b49c24995bd9e548b5765c901e4e1d2d
+	cmdver = 0.3.0
