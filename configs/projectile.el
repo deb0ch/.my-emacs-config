@@ -19,15 +19,3 @@
 ;; (add-hook 'projectile-mode-hook '(lambda ()
 ;;                               (remove-hook 'find-file-hook #'projectile-cache-files-find-file-hook t)
 ;;                               (remove-hook 'find-file-hook #'projectile-visit-project-tags-table t)))
-
-;; (eval-after-load 'helm
-;;   '(progn
-;;      (setq helm-projectile-fuzzy-match nil)
-
-;;      (require 'helm-projectile)
-
-;;      (setq projectile-completion-system 'helm)
-;;      (define-key helm-projectile-find-file-map (kbd "<right>") nil)
-;;      (define-key helm-projectile-find-file-map (kbd "<left>")  nil)
-
-;;      (helm-projectile-on)))
