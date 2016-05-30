@@ -34,6 +34,7 @@
 (conf:load-config "helm-descbinds")
 (conf:load-config "helm-gtags")
 (conf:load-config "helm-swoop")
+(conf:load-config "magit")
 (conf:load-config "markdown-mode")
 (conf:load-config "markdown-preview-mode")
 (conf:load-config "move-where-i-mean")
@@ -41,6 +42,7 @@
 (conf:load-config "powerline")
 (conf:load-config "projectile")
 (conf:load-config "undo-tree")
+;(conf:load-config "with-editor")
 (conf:load-config "ws-butler")
 
 ;; theme

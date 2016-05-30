@@ -28,5 +28,9 @@ make -C ../modules/pdf-tools/ install-server-deps
 make -C ../modules/pdf-tools/ -s
 echo "Done building pdf-tools"
 
+echo "Building magit..."
+make -C ../modules/magit/
+echo "Done building magit"
+
 
 echo "Please change your terminal's or system's default font the a patched one for powerline to display properly."
