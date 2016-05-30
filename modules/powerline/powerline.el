@@ -445,7 +445,7 @@ static char * %s[] = {
 ;;;###autoload (autoload 'powerline-vc "powerline")
 (defpowerline powerline-vc
   (when (and (buffer-file-name (current-buffer)) vc-mode)
-	  (format " %s %s"
+	  (format " %s%s"
 		  (char-to-string #xe0a0)
 		  (format-mode-line '(vc-mode vc-mode)))))
 
