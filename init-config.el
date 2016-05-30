@@ -28,6 +28,7 @@
 (conf:load-config "cmake-mode")
 (conf:load-config "dtrt-indent")
 (conf:load-config "expand-region")
+(conf:load-config "git-gutter")
 (conf:load-config "ggtags")
 (conf:load-config "helm")
 (conf:load-config "helm-ag")
