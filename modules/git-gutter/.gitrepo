@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/syohex/emacs-git-gutter.git
+	branch = 0.88
+	commit = c40683e9c5931dd67f89ad9ef8625de28752f00c
+	parent = d8327de87fa29e5c0579126d02f9eb78d9aae16a
+	cmdver = 0.3.0
