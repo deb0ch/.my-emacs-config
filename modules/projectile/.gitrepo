@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/bbatsov/projectile.git
+	branch = master
+	commit = 07d19fb0335f170ff6c04f54ab620653a3e93db0
+	parent = a5f0cb76d2e0bdc07ff890bafcc7e772d57a96aa
+	cmdver = 0.3.0
