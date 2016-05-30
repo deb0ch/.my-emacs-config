@@ -23,16 +23,17 @@ To try:
     ├── * helm-ag
     ├── * helm-descbinds
     ├── * helm-gtags
-    └── * helm-swoop
+    ├── * helm-swoop
+    └── helm-projectile
 
 └── completion
     ├── company-mode
     ├── company-c-headers
     ├── company-irony
-    ├── flycheck
-    ├── flycheck-irony
     ├── irony
-    └── yasnippet (for company-irony)
+    ├── yasnippet (for company-irony)
+    ├── flycheck
+    └── flycheck-irony
 
 └── utils
     ├── * markdown-preview-mode
@@ -41,20 +42,15 @@ To try:
     ├── * zlc
     ├── * powerline			(https://github.com/milkypostman/powerline)
     ├── * mwim (move where i mean)
-    ├── highlight-symbol
     ├── * expand-region
+    ├── projectile
     ├── magit
     ├── git-gutter (terminal)
-    ├── projectile
-    ├── hydra				(https://github.com/abo-abo/hydra)
-    ├── location-stack.el
-    └── pdf-tools			(https://github.com/politza/pdf-tools)
+    ├── pdf-tools			(https://github.com/politza/pdf-tools)
+    └── hydra				(https://github.com/abo-abo/hydra)
 
-└── language support
-    ├── * markdown-mode
-    └── * cmake				(cmake-mode https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
-
-└── not sure
+└── to assess
+    ├── * highlight-symbol
     ├── evil-mode
     ├── ace-jump
     ├── kill-ring-search
@@ -86,6 +82,10 @@ To try:
     ├── zenburn-theme
     └── zerodark-theme
 
+└── language support
+    ├── * markdown-mode
+    └── * cmake                         (cmake-mode https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
+
 *************
 *  Configs  *
 *************
@@ -93,6 +93,7 @@ To try:
 better-cc-mode.el			(prettify c++, c++11 support, coding style settings)
 simple-ido.el
 window.el				(misc configs for gui windows management)
+location-stack.el
 
 
 **********
@@ -116,3 +117,5 @@ Helm-projectile useful function (to bind on M-o):
 ***********
 
 - * powerline: shorten commit hash
+- ws-butler: remove spaces even under point
+- pdf-tools: update readme upstream with instructions for installing without using MELPA

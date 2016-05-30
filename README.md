@@ -1,8 +1,6 @@
 # My Emacs config
 
-This my emacs configuration system, largely inspired by Romain Ouabdelkader (Azkae)'s
-configuration system, which you can find at https://github.com/Azkae/emacs-config.git
-
+This my emacs configuration system, largely inspired by [Romain Ouabdelkader (Azkae)'s config](https://github.com/Azkae/emacs-config.git)
 
 ## Install
 
@@ -44,7 +42,7 @@ A typical init-config.el file should look like this:
 (conf:load-config "autopair")
 (conf:load-config "company")
 (conf:load-config "helm")
-(conf:load-config "file-in-config-folder")
+(conf:load-config "file-in-configs-folder")
 ;; ...
 
 (provide 'init-config)
