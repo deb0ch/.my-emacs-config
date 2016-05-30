@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/magit/magit.git
+	branch = 2.7.0
+	commit = bfc6f6d88619221506e246390e5fbb39087564ec
+	parent = c2e22f9d2011e8a550c2dd90f8ed177b332b6fbf
+	cmdver = 0.3.0
