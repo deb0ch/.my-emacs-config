@@ -24,7 +24,7 @@ To try:
     ├── * helm-descbinds
     ├── * helm-gtags
     ├── * helm-swoop
-    └── helm-projectile
+    └── * helm-projectile
 
 └── completion
     ├── company-mode
@@ -41,18 +41,18 @@ To try:
     ├── * dtrt-indent
     ├── * zlc
     ├── * powerline			(https://github.com/milkypostman/powerline)
-    ├── * mwim (move where i mean)
+    ├── * mwim (Move Where I Mean)
     ├── * expand-region
-    ├── projectile
-    ├── magit
-    ├── git-gutter (terminal)
-    ├── pdf-tools			(https://github.com/politza/pdf-tools)
+    ├── * projectile
+    ├── * magit
+    ├── * git-gutter
+    ├── * pdf-tools			(https://github.com/politza/pdf-tools)
+    ├── ace-jump
     └── hydra				(https://github.com/abo-abo/hydra)
 
 └── to assess
     ├── * highlight-symbol
     ├── evil-mode
-    ├── ace-jump
     ├── kill-ring-search
     ├── semantic-refactor		(https://github.com/tuhdo/semantic-refactor)
     ├── speedbar			(https://www.emacswiki.org/emacs/SpeedBar)
@@ -119,3 +119,6 @@ Helm-projectile useful function (to bind on M-o):
 - * powerline: shorten commit hash
 - ws-butler: remove spaces even under point
 - pdf-tools: update readme upstream with instructions for installing without using MELPA
+- with-editor (or other): when in internal terminal, make command ne open files in current instance.
+- powerline: hide some minor-modes
+- powerline: responsive powerline
