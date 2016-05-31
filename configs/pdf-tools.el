@@ -25,3 +25,5 @@
 (require 'pdf-tools)
 
 (pdf-tools-install)
+
+(setq pdf-view-max-image-width 48000)
