@@ -29,7 +29,7 @@
 ;; Show signs at gutter by visual lines instead of logical lines
 (setq git-gutter:visual-line nil)
 
-(setq git-gutter:diff-option "--staged")
+(setq git-gutter:diff-option "HEAD") ;; "HEAD": show staged and unstaged changes
 
 ;; first character should be a space
 (setq git-gutter:lighter " GitG")
