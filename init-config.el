@@ -2,8 +2,8 @@
 
 ;; Regular configs
 
-(conf:load-config "ansi-color")
 (conf:load-config "avoid-boring-buffers")
+(conf:load-config "display-ansi-colors")
 (conf:load-config "duplicate-region")
 (conf:load-config "highlight-symbol")
 (conf:load-config "ido-mode")
