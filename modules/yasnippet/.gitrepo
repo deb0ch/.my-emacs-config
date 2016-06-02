@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/joaotavora/yasnippet.git
+	branch = master
+	commit = e23a053b0041e4f615649b7acf8c1b2ce35fd3fb
+	parent = c8804d4261461115b1efdabb4afbe88fdb47c2bb
+	cmdver = 0.3.0
