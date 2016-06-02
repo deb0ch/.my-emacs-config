@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/expez/company-quickhelp.git
+	branch = 1.3.0
+	commit = 39e206f7797962992aa1e555c293b6d872d6718b
+	parent = fe5722ca13091dd2667620e9b6c7efc9746ffd79
+	cmdver = 0.3.0
