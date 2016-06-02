@@ -3,20 +3,16 @@
 *  Modules  *
 *************
 
-Essentials:
--------------
 
-* multiple-cursors
-* undo-tree
-* ws-butler
-
-
-Tags:
-
-* ggtags
-
-To try:
----------
+└── completion
+    ├── * company-mode
+    ├── * irony
+    ├── * company-irony
+    ├── * company-quickhelp               (https://github.com/expez/company-quickhelp)
+    ├── * company-c-headers
+    ├── * yasnippet (for company-irony)
+    ├── flycheck
+    └── flycheck-irony
 
 └── Helm
     ├── * helm
@@ -26,19 +22,13 @@ To try:
     ├── * helm-swoop
     └── * helm-projectile
 
-└── completion
-    ├── company-mode
-    ├── company-c-headers
-    ├── company-irony
-    ├── irony
-    ├── yasnippet (for company-irony)
-    ├── flycheck
-    └── flycheck-irony
-
 └── utils
+    ├── * multiple-cursors
+    ├── * undo-tree
+    ├── * ws-butler
+    ├── * ggtags
     ├── * markdown-preview-mode
     ├── * smartparens
-    ├── * dtrt-indent
     ├── * zlc
     ├── * powerline			(https://github.com/milkypostman/powerline)
     ├── * mwim (Move Where I Mean)
@@ -47,17 +37,41 @@ To try:
     ├── * magit
     ├── * git-gutter
     ├── * pdf-tools			(https://github.com/politza/pdf-tools)
+    ├── ido-vertical-mode               (https://github.com/creichert/ido-vertical-mode.el)
     ├── ace-jump
     └── hydra				(https://github.com/abo-abo/hydra)
 
+frames/buffers management
+    ├── golden-ratio                    (https://github.com/roman/golden-ratio.el)
+    ├── eyebrowse                       (https://github.com/wasamasa/eyebrowse)
+    ├── perspective-el                  (https://github.com/nex3/perspective-el)
+    └── persp-mode                      (https://github.com/Bad-ptr/persp-mode.el)
+
+└── language support
+    ├── * markdown-mode
+    └── * cmake-mode                    (https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
+
 └── to assess
     ├── * highlight-symbol
+    ├── neotree                         (https://github.com/jaypei/emacs-neotree)
+    ├── which-key                       (https://github.com/justbur/emacs-which-key)
     ├── evil-mode
-    ├── kill-ring-search
     ├── semantic-refactor		(https://github.com/tuhdo/semantic-refactor)
     ├── speedbar			(https://www.emacswiki.org/emacs/SpeedBar)
-    ├── git-gutter-fringe		(gui)
-    └── sublimity			(gui) (https://github.com/zk-phi/sublimity)
+    ├── sublimity			(gui) (https://github.com/zk-phi/sublimity)
+    ├── fringe-helper                   (https://github.com/nschum/fringe-helper.el)
+    └── compile-bookmarks
+
+└── style detection
+    ├── * dtrt-indent
+    ├── guess-style                     (https://github.com/nschum/guess-style)
+    └── FuzzyFormat                     (https://www.emacswiki.org/emacs/FuzzyFormat)
+
+
+*************
+*  Sillies  *
+*************
+
 
 └── games
     ├── flappymacs
@@ -66,25 +80,21 @@ To try:
     ├── typing-game
     └── typing
 
-└── silly
-    ├── fireplace
+└── useless
     ├── * nyan-mode			(gui)
     ├── zone-nyan			(gui)
-    └── zone-sl
+    ├── zone-sl
+    └── fireplace
 
 └── themes
+    ├── * monokai
     ├── badger-theme
     ├── badwolf-theme
-    ├── * monokai			(gui)
     ├── toxi-theme
     ├── ubuntu-theme
     ├── underwater-theme
     ├── zenburn-theme
     └── zerodark-theme
-
-└── language support
-    ├── * markdown-mode
-    └── * cmake                         (cmake-mode https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
 
 *************
 *  Configs  *
@@ -116,9 +126,14 @@ Helm-projectile useful function (to bind on M-o):
 *  Hacks  *
 ***********
 
-- * powerline: shorten commit hash
 - ws-butler: remove spaces even under point
-- pdf-tools: update readme upstream with instructions for installing without using MELPA
 - with-editor (or other): when in internal terminal, make command ne open files in current instance.
 - powerline: hide some minor-modes
 - powerline: responsive powerline
+
+
+****************
+*  Contribute  *
+****************
+
+- pdf-tools: update readme upstream with instructions for installing without using MELPA
