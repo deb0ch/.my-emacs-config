@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/company-mode/company-mode
+	branch = master
+	commit = 2d9bf1e9ce40c7670a39fce8ee7d0ffe1ff2fbc7
+	parent = 16c89256fc69f0ba2e7d2b23fa4d331aff58257d
+	cmdver = 0.3.0
