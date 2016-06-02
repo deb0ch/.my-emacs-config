@@ -27,3 +27,5 @@
 (pdf-tools-install)
 
 (setq pdf-view-max-image-width 48000)
+(setq pdf-view-use-imagemagick t)
+(setq pdf-view-use-scaling t)
