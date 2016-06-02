@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/Sarcasm/irony-mode.git
+	branch = v0.2.0
+	commit = 3d64dec24b01bc582801db537ed12a5812f4f0ee
+	parent = f2fe34f18302d1873db8987d3a41aae2a19c35db
+	cmdver = 0.3.0
