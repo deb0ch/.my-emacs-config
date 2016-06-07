@@ -1,6 +1,6 @@
-;; **********************************************
-;; * Avoid useless buffers when cycling arround *
-;; **********************************************
+;;
+;; Avoid useless buffers when cycling arround
+;;
 
 (require 'cl)
 
