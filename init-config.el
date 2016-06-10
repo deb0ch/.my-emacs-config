@@ -1,6 +1,6 @@
 (require 'config-loader)
 
-;; Regular configs
+;; Regular
 
 (conf:load-config "avoid-boring-buffers")
 (conf:load-config "display-ansi-colors")
@@ -45,6 +45,12 @@
 (conf:load-config "undo-tree")
 ;(conf:load-config "with-editor")
 (conf:load-config "ws-butler")
+
+(conf:load-config "company")
+(conf:load-config "irony")
+(conf:load-config "company-irony")
+(conf:load-config "company-c-headers")
+(conf:load-config "company-cc")
 
 ;; theme
 

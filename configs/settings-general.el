@@ -1,6 +1,17 @@
-;; ********************************
-;; * Personal emacs settings
-;; ********************************
+;;
+;; Personal emacs settings
+;;
+
+;; Do not show buffers list when opening multiple files.
+(setq inhibit-startup-buffer-menu t)
+
+;; Removes *Completions* from buffer after you've opened a file.
+(add-hook 'minibuffer-exit-hook
+	  '(lambda ()
+	     (let ((buffer "*Completions*"))
+	       (and (get-buffer buffer)
+		    (kill-buffer buffer)))))
+
 
 (setq-default major-mode 'text-mode)
 

@@ -1,6 +1,6 @@
-;; ***********************************
-;; *  Settings specific to gui mode  *
-;; ***********************************
+;;
+;; Settings specific to gui mode
+;;
 
 ;; Set default window size in gui mode - customized for i3
 (add-to-list 'default-frame-alist '(width . 193)) ; character
