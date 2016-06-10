@@ -137,3 +137,5 @@ Helm-projectile useful function (to bind on M-o):
 ****************
 
 - pdf-tools: update readme upstream with instructions for installing without using MELPA
+- spacemacs: Document how to import your existing conf into spacemacs
+- spacemacs: Document theming layer at Faces with mode-line-buffer-id and mode-line-buffer-id-inactive
